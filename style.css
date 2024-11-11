@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d6d6d6;
+    color: #333;
+    margin: 20px;
+    line-height: 1.6;
+    
+}
+.perfil_div{
+    justify-content: center;
+    flex-direction: column;
+}
+.foto_perfil{
+margin:0 auto;
+}
+#name {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    justify-content: center;
+    display:flex;
+}
+
+.caption {
+    font-style: italic;
+    color: #7f8c8d;
+    text-align: center;
+}
+
+.section-title {
+    color: #16a085;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a[href] {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #8e44ad;
+    text-decoration: underline dotted;
+}
+
+.skills li {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1, h2, p {
+    text-shadow: 1px 1px 2px #bdc3c7;
+}
+
+.footer {
+    text-align: center;
+    color: #95a5a6;
+    margin-top: 20px;
+}
